@@ -50,9 +50,11 @@ To push a new project to an existing GitHub repository, follow these steps:
 ## how To merged main branch into a feature branch
 - Ensure your feature branch is up to date:
   Before merging changes from the main branch, it's a good practice to ensure your feature branch is up to date with the latest changes from the main     branch. You can do this by fetching the latest changes from the main branch and rebasing your feature branch onto it. This helps in avoiding unnecessary conflicts during the merge.
-  `git checkout feature_branch
-git fetch origin
-git rebase origin/main
+  `
+  -  git checkout feature_branch
+  -  git fetch origin
+  -  git rebase origin/main
+    `
 
 - Merge main branch into the feature branch:
   Once your feature branch is up to date, you can merge the changes from the main branch into your feature branch:
